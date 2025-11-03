@@ -1,7 +1,7 @@
 import { API, DynamicPlatformPlugin, Logging, PlatformAccessory, PlatformConfig, Service, Characteristic } from 'homebridge';
 import moment from 'moment-timezone';
 
-const PLUGIN_NAME = 'homebridge-heurespleines-heurescreuses';
+const PLUGIN_NAME = 'homebridge Heures pleines/Heures creuses';
 const PLATFORM_NAME = 'HPHCPlatform';
 
 interface TimeSlot {
