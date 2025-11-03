@@ -1,0 +1,56 @@
+{
+  "name": "homebridge-heurespleines-heurescreuses",
+  "version": "1.0.0",
+  "description": "Plugin Homebridge pour gérer automatiquement les Heures Creuses et Heures Pleines. Permet de déclencher des accessoires, scènes ou automatisations selon la période tarifaire (HC/HP). A Homebridge plugin to manage electricity rates and automations based on off-peak / peak hours.",
+  "main": "dist/dynamic-platform.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "rimraf ./dist && tsc",
+    "prepublishOnly": "npm run build",
+    "postpublish": "npm run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christophe Bansart <christophe.bansart@kdetude.com>",
+  "homepage": "https://github.com/chrisbansart/homebridge-tempo",
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/ChrisBansart"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/bansart"
+    }
+  ],
+  "engines": {
+    "node": ">=14.18.1",
+    "homebridge": ">=1.3.5"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "tempo",
+    "edf"
+  ],
+  "license": "GPL-3.0-only",
+  "files": [
+    "LICENSE",
+    "dist",
+    "config.schema.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisbansart/homebridge-tempo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisbansart/homebridge-tempo/issues"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.7",
+    "homebridge": "^1.6.1",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.46"
+  }
+}
