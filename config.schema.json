@@ -6,12 +6,12 @@
   "footerDisplay": "Created by @chrisbansart",
   "schema": {
     "type": "object",
+    "required": ["name", "slot1Start", "slot1End", "slot2Start", "slot2End"],
     "properties": {
       "name": {
         "title": "Nom",
         "type": "string",
-        "default": "Heures Pleines / Heures Pleines (HP/HC)",
-        "required": true
+        "default": "Heures Pleines / Heures Creuses (HP/HC)"
       },
       "slot1Start": {
         "title": "Heures creuses - créneau 1 - début",
@@ -19,7 +19,6 @@
         "pattern": "^([0-1][0-9]|2[0-3]):[0-5][0-9]$",
         "default": "02:00",
         "placeholder": "HH:MM",
-        "required": true,
         "description": "Heure de début du premier créneau d'heures creuses (format HH:MM)"
       },
       "slot1End": {
@@ -28,39 +27,34 @@
         "pattern": "^([0-1][0-9]|2[0-3]):[0-5][0-9]$",
         "default": "07:00",
         "placeholder": "HH:MM",
-        "required": true,
         "description": "Heure de fin du premier créneau d'heures creuses (format HH:MM)"
       },
       "slot2Start": {
-        "title": "heures creuses - créneau 2 - début",
+        "title": "Heures creuses - créneau 2 - début",
         "type": "string",
         "pattern": "^([0-1][0-9]|2[0-3]):[0-5][0-9]$",
         "default": "00:00",
         "placeholder": "HH:MM",
-        "required": true,
         "description": "Heure de début du deuxième créneau d'heures creuses (format HH:MM). Utiliser 00:00 pour désactiver ce créneau"
       },
       "slot2End": {
-        "title": "heures creuses - créneau 2 - fin",
+        "title": "Heures creuses - créneau 2 - fin",
         "type": "string",
         "pattern": "^([0-1][0-9]|2[0-3]):[0-5][0-9]$",
         "default": "00:00",
         "placeholder": "HH:MM",
-        "required": true,
         "description": "Heure de fin du deuxième créneau d'heures creuses (format HH:MM). Utiliser 00:00 pour désactiver ce créneau"
       },
       "hpName": {
         "title": "Nom de l'accessoire Heures Pleines",
         "type": "string",
         "default": "Heures Pleines",
-        "required": false,
         "description": "Nom personnalisé pour l'accessoire Heures Pleines"
       },
       "hcName": {
         "title": "Nom de l'accessoire Heures Creuses",
         "type": "string",
         "default": "Heures Creuses",
-        "required": false,
         "description": "Nom personnalisé pour l'accessoire Heures Creuses"
       }
     }
