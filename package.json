@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Christophe Bansart <christophe.bansart@kdetude.com>",
-  "homepage": "https://github.com/chrisbansart/homebridge-tempo",
+  "homepage": "https://github.com/chrisbansart/homebridge-heurespleines-heurescreuses",
   "funding": [
     {
       "type": "paypal",
@@ -29,8 +29,13 @@
   },
   "keywords": [
     "homebridge-plugin",
-    "tempo",
-    "edf"
+    "heures creuses",
+    "heures pleines",
+    "rte",
+    "enedis",
+    "edf",
+    "off-peak",
+    "peak"
   ],
   "license": "GPL-3.0-only",
   "files": [
@@ -40,10 +45,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/chrisbansart/homebridge-tempo.git"
+    "url": "https://github.com/chrisbansart/homebridge-heurespleines-heurescreuses.git"
   },
   "bugs": {
-    "url": "https://github.com/chrisbansart/homebridge-tempo/issues"
+    "url": "https://github.com/chrisbansart/homebridge-heurespleines-heurescreuses/issues"
   },
   "devDependencies": {
     "@types/node": "16.11.7",
