@@ -11,7 +11,7 @@
       "name": {
         "title": "Nom",
         "type": "string",
-        "default": "Heures Pleines / Heures Creuses (HP/HC)"
+        "default": "Heures pleines - Heures creuses"
       },
       "slot1Start": {
         "title": "Heures creuses - créneau 1 - début",
