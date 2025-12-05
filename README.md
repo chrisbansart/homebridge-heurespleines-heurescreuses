@@ -1,5 +1,6 @@
 # Homebridge Heures Pleines / Heures Creuses
 
+[![verified-by-homebridge](https://img.shields.io/badge/homebridge-verified-blueviolet?color=%23491F59&style=flat)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins)
 [![npm](https://img.shields.io/npm/v/homebridge-heurespleines-heurescreuses)](https://www.npmjs.com/package/homebridge-heurespleines-heurescreuses)
 [![npm](https://img.shields.io/npm/dt/homebridge-heurespleines-heurescreuses)](https://www.npmjs.com/package/homebridge-heurespleines-heurescreuses)
 
